@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.55",
     "ajv": "^6.9.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
@@ -10,7 +11,7 @@
     "react-redux": "5.0.7",
     "react-scripts": "2.1.5",
     "redux": "^4.0.1",
-    "@babel/runtime": "^7.0.0-beta.55"
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
