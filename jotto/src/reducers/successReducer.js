@@ -5,7 +5,6 @@ export default (state=false, action) => {
     case actionTypes.CORRECT_GUESS:
       return true;
     default:
-      console.log(state);
       return state;
   }
 }
